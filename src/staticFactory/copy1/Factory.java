@@ -1,4 +1,4 @@
-package staticFactory.today;
+package staticFactory.copy1;
 
 import java.util.HashMap;
 

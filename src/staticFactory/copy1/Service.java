@@ -1,6 +1,6 @@
-package staticFactory.today;
+package staticFactory.copy1;
 
-import staticFactory.today.Result.Result0;
+import staticFactory.copy1.Result.Result0;
 
 public interface Service {
     void register(Factory factory);

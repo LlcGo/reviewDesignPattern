@@ -1,10 +1,10 @@
-package staticFactory.today.impl;
+package staticFactory.copy1.impl;
 
-import staticFactory.today.Factory;
-import staticFactory.today.Result.HKResult;
-import staticFactory.today.Result.Result0;
-import staticFactory.today.Service;
-import staticFactory.today.Type0;
+import staticFactory.copy1.Factory;
+import staticFactory.copy1.Result.HKResult;
+import staticFactory.copy1.Result.Result0;
+import staticFactory.copy1.Service;
+import staticFactory.copy1.Type0;
 
 public class HKService implements Service {
     @Override

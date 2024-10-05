@@ -1,32 +1,21 @@
 package staticFactory.today.Result;
 
-public class HKResult extends Result0{
-    private Integer c;
-    private Integer d;
-    public HKResult(){};
+public class HKResult extends Result2{
 
-    public HKResult(Builder builder){
-        this.c = builder.c;
-        this.d = builder.d;
+    private String desc = "HK实体类";
+
+    public String getDesc() {
+        return desc;
     }
 
-    public static class Builder{
-        private Integer c;
-        private Integer d;
-
-        public Builder c(Integer c){
-            this.c = c;
-            return this;
-        }
-
-        public Builder d(Integer d){
-            this.d = d;
-            return this;
-        }
-
-        public HKResult build(){
-            return new HKResult(this);
-        }
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 
+    @Override
+    public String toString() {
+        return "HKResult{" +
+                "desc='" + desc + '\'' +
+                '}';
+    }
 }

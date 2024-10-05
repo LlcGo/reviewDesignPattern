@@ -20,15 +20,10 @@ public abstract class TemplateAbstract {
         return UUID.randomUUID().toString();
     }
 
-
     public Integer getMayBeTime(String type, String form){
         return 30;
     }
 
     public abstract void downTask();
-
-
-
-
 
 }

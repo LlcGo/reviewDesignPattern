@@ -7,4 +7,5 @@ public class DownTask extends TemplateAbstract {
     public void downTask() {
         System.out.println("多线程执行任务");
     }
+
 }
