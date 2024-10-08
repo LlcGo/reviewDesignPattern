@@ -1,6 +1,6 @@
-package template.task;
+package template.copy0.task;
 
-import template.TemplateAbstract;
+import template.copy0.TemplateAbstract;
 
 public class DownTask extends TemplateAbstract {
     @Override
